@@ -1,30 +1,19 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- windows
-- windows-uwp
-statusNotificationTargets:
-- codefirst@microsoft.com
-description: "With Windows Ink, you can provide your customers with the digital equivalent of almost any pen and paper experience imaginable."
-urlFragment: get-started-tutorial-ink
----
+# Getting Started Ink tutorial
+1. Introduction:
+   This is the repository for the basic Windows app that supports writing with Windows Ink, used primarily in the context of the Praxis Project "Investigating the effect of tactile perception on the working memory". It contains snippets from a sample app, which you can find and download from Github [Sample code](https://github.com/Microsoft/Windows-tutorials-inputs-and-devices/tree/master/GettingStarted-Ink).
+   The following tools are implemented:
+     + Add an average pressure meter for each stroke collected.
+     + Recognizing when the average pressure of said stroke is under a certain threshold
+     + Play a small sound when the pressure is below the threshold
+     + Support handwriting recognition
+     + Record average pressure of each recognized word and export to a CSV file
+   For further information, please see [Tutorial: Support ink in your Windows app](https://learn.microsoft.com/en-us/windows/apps/design/input/ink-walkthrough#sample-code)
 
-# Get Started Tutorial: Support ink in your UWP app
-
-This is the complete sample code for the [Get Started Tutorial: Support ink in your UWP app](https://docs.microsoft.com/windows/uwp/get-started/ink-walkthrough) on [Windows Dev Center](https://developer.microsoft.com/windows).
-
-With Windows Ink, you can provide your customers with the digital equivalent of almost any pen and paper experience imaginable, from quick handwritten notes and annotations to whiteboard demos to architectural and engineering drawings to personal masterpieces.
-
-In this topic, we step through how to create a basic UWP app that supports writing and drawing with Windows Ink. 
-
-We focus on the following:
-
-* Adding basic ink support
-* Adding an ink toolbar
-* Supporting handwriting recognition
-* Supporting basic shape recognition
-* Saving and loading ink
-
-For more detail on implementing these features, see our [Pen interactions and Windows Ink in UWP apps](https://docs.microsoft.com/en-us/windows/uwp/input-and-devices/pen-and-stylus-interactions) topics)
+2. Prerequisites:
+   - A computer (or virtual machine) that can run Windows 10 or Windows 11
+   - Virtual Studio 2019 and RS2 SDK or up, see [Developer](https://developer.microsoft.com/en-us/windows/downloads/)
+   - Depending on your configuration, you might have to install the Microsoft.NETCore.UniversalWindowsPlatform NuGet package.
+   - Enable **Developer Mode** in your system
+   - Digital pen and tablet
+  
+3. 
