@@ -1,0 +1,1 @@
+C:\Users\HP\source\repos\Windows-tutorials-inputs-and-devices\GettingStarted-Ink\GettingStarted-Ink.csproj;x64
