@@ -1,5 +1,6 @@
 # Getting Started Ink tutorial
 1. Introduction:
+   
    This is the repository for the basic Windows app that supports writing with Windows Ink, used primarily in the context of the Praxis Project "Investigating the effect of tactile perception on the working memory". It contains snippets from a sample app, which you can find and download from Github [Sample code](https://github.com/Microsoft/Windows-tutorials-inputs-and-devices/tree/master/GettingStarted-Ink).
    The following tools are implemented:
      + Add an average pressure meter for each stroke collected.
@@ -9,14 +10,14 @@
      + Record average pressure of each recognized word and export to a CSV file
    For further information, please see [Tutorial: Support ink in your Windows app](https://learn.microsoft.com/en-us/windows/apps/design/input/ink-walkthrough#sample-code)
 
-2. Prerequisites:
+3. Prerequisites:
    - A computer (or virtual machine) that can run Windows 10 or Windows 11
    - Virtual Studio 2019 and RS2 SDK or up, see [Developer](https://developer.microsoft.com/en-us/windows/downloads/)
    - Depending on your configuration, you might have to install the Microsoft.NETCore.UniversalWindowsPlatform NuGet package.
    - Enable **Developer Mode** in your system
    - Digital pen and tablet
   
-3. Sample
+4. Sample
    - Download or clone this repository to your local machine:
      
      ![image](https://github.com/sovahoan/PraxisProject_TactilePerception_WorkingMemory/assets/143092181/6b15efd8-642b-420b-8c67-70ffd5afecff)
@@ -30,7 +31,7 @@
      
      ![image](https://github.com/sovahoan/PraxisProject_TactilePerception_WorkingMemory/assets/143092181/7f3fa9c9-f941-4c59-97b1-e6a52d44773c)
      
-   - A clear and blank canvas, in case you need to add a heading, you can also visit the XAML file and add it, I also don't show the current pressure, you can see it in **Output** window (View > Output), or uncomment the line:
+   - A clear and blank canvas, in case you need to add a heading, you can also visit the XAML file and add it, I also don't show the current pressure, you can see it in **Output** window in Visual Studio (View > Output), or uncomment the line:
      ```
      pressureTextBlock.Text += $"Pressure: {averagePressure:F2}";
      ```
