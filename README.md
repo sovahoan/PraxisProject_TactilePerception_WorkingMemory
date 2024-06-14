@@ -56,6 +56,8 @@
      
  ![image](https://github.com/sovahoan/PraxisProject_TactilePerception_WorkingMemory/assets/143092181/57215430-4f3f-4127-83a3-e8fa9c2013ed)
 
+ (Handwriting recognition can be improved through **Pen & Windows Ink** settings: Start menu > Devices > Pen & Windows Ink > Get to know my handwriting > Handwriting Personalization) - I don't have this option though.
+
    - When you want a new fresh canvas, click **Clear**, when clicking this, you will lose previous ink and its data (unless saved - only saving the recognized text and pressure, not handwriting). We can use a screenshot to capture handwriting if needed, or implement **Save and load ink**  (see [Tutorial](https://learn.microsoft.com/en-us/windows/apps/design/input/ink-walkthrough#prerequisites))
 
 
