@@ -60,6 +60,8 @@
 
    - When you want a new fresh canvas, click **Clear**, when clicking this, you will lose previous ink and its data (unless saved - only saving the recognized text and pressure, not handwriting). We can use a screenshot to capture handwriting if needed, or implement **Save and load ink**  (see [Tutorial](https://learn.microsoft.com/en-us/windows/apps/design/input/ink-walkthrough#prerequisites))
 
+*The sound plays when stroke pressure is lower than threshold. File saved will be a list of average pressure of each recognized words (otherwise it'll be too many values)
+
 
 
      
