@@ -48,6 +48,11 @@ using System.Text;
 using Windows.Storage.Pickers;
 using Windows.Media.Playback;
 using Windows.Media.Core;
+using Windows.UI.Input;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.ApplicationModel.Core;
+using Windows.UI.ViewManagement;
 // End "Step 2: Use InkCanvas to support basic inking"
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
