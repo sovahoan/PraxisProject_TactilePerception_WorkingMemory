@@ -118,7 +118,7 @@ namespace GettingStarted_Ink
             Debug.WriteLine($"Average pressure: {averagePressure:F2}");
 
             //Check if pressure is less than 0.6
-            if (averagePressure < 0.6f)
+            if (averagePressure < 0.5f)
             {
                 //Print a message to debug console
                 Debug.WriteLine("Pressure is below the threshold");
@@ -226,6 +226,16 @@ namespace GettingStarted_Ink
             inkCanvas.InkPresenter.StrokeContainer.Clear();
         }
         
+        //Disable space bar so it doesn't mess with the dual task
+       private void ClearButton_KeyDown(object sender, KeyRoutedEventArgs e)
+       {
+           if (e.Key == Windows.System.VirtualKey.Space)
+           {
+               e.Handled = true;
+           }
+       }
+
+
 
         // Begin "Step 6: Recognize shapes"
         //private async void recognizeShape_ClickAsync(object sender, RoutedEventArgs e)
